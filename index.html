@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Company</title>
+    <!-- google sora font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&family=Sora:wght@100..800&display=swap"
+        rel="stylesheet">
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- iconify icon link -->
+    <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+    <!-- swiper slider links -->
+    <script type="module" crossorigin="" src="assets/js/index.6f279bdd.js"></script>
+    <link rel="modulepreload" href="assets/js/vendor.4ea4e284.js">
+    <link rel="stylesheet" href="assets/css/index.0f26cec9.css">
+    <!-- bootstrap css link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- custom css link -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body data-bs-theme="dark" class="text-light">
+
+    <!-- header start -->
+    <header>
+        <nav class="navbar navbar-expand-lg my-2 sticky-top">
+            <div class="container blur-bg rounded-4 shadow-lg border">
+                <div class="d-lg-flex align-items-center justify-content-between w-100 ">
+                    <div class="d-flex align-items-center justify-content-between my-2 m-lg-0">
+                        <a class="navbar-brand heading-font text-white ps-2" href="#">DataSphere Academy</a>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <iconify-icon icon="ic:baseline-search" width="24" height="24"
+                                class="bg-dark-subtle rounded-circle p-1 d-lg-none"></iconify-icon>
+                            <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <!-- <span class="navbar-toggler-icon"></span> -->
+                                <div class="menu-btn">
+                                    <div class="btn-line"></div>
+                                    <div class="btn-line"></div>
+                                    <div class="btn-line m-0"></div>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="collapse navbar-collapse p-2" id="navbarTogglerDemo02">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                            <li class="nav-item d-flex align-items-center"><a class="nav-link text-light"
+                                    href="#">Home</a></li>
+                            <li class="nav-item d-flex align-items-center">
+                                <div class="dropdown">
+                                    <a class="nav-link text-light" href="#" role="button" data-bs-toggle="dropdown"
+                                        data-bs-auto-close="inside" aria-expanded="false" id="courses">
+                                        Courses &nbsp;<i class="fa-solid fa-caret-down"></i>
+                                    </a>
+                                    <ul class="dropdown-menu blur-bg">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item d-flex align-items-center"><a class="nav-link text-light"
+                                    href="#">Blogs</a></li>
+                            <li class="nav-item d-flex align-items-center"><a class="nav-link text-light" href="#">About
+                                    Us</a></li>
+                            <li class="nav-item d-flex align-items-center"><a class="nav-link text-light"
+                                    href="#">Contact Us</a></li>
+                            <li class="nav-item d-flex align-items-center ">
+                                <a class="nav-link text-light" href="#" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">
+                                    <iconify-icon icon="ic:baseline-search" width="24" height="24"
+                                        class="bg-dark-subtle rounded-circle p-2 d-none d-lg-block mx-2"></iconify-icon>
+                                </a>
+                            </li>
+                            <li class="nav-item d-flex align-items-center">
+                                <a class="nav-link text-light" href="#">
+                                    <button class="btn btn-outline-light">Get Enrolled</button>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Search</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Recipient's username"
+                            aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <button class="input-group-text" id="basic-addon2">
+                            <iconify-icon icon="ic:baseline-search" width="24" height="24"></iconify-icon>
+                        </button>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Search</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- header end -->
+
+
+    <!-- main banner start -->
+    <div id="app">
+        <!-- Carousel slider -->
+        <div class="swiper swiper-carousel swiper-initialized swiper-horizontal swiper-watch-progress">
+            <div class="swiper-wrapper"
+                style="cursor: grab; transition-duration: 0ms; transform: translate3d(-5380px, 0px, 0px); transition-delay: 0ms;">
+                <div class="swiper-slide" data-swiper-slide-index="0">
+                    <div class="swiper-carousel-animate-opacity" style="opacity: -2.63; transition-duration: 0ms;">
+                        <img src="assets/images/main-banner-1.jpg" alt="main banner image" class="img-fluid">
+                        <div class="slide-content">
+                            <h2>Doctor Strange</h2>
+                            <p>America Chavez and a version of Stephen Strange are chased by a demon in the space
+                                between universes
+                                while searching for the Book of Vishanti</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide" data-swiper-slide-index="1">
+                    <div class="swiper-carousel-animate-opacity" style="opacity: -2.3; transition-duration: 0ms;">
+                        <img src="assets/images/main-banner-2.jpg" alt="main banner image" class="img-fluid">
+                        <div class="slide-content">
+                            <h2>Eternals </h2>
+                            <p>In 5000 BC, ten superpowered Eternals—Ajak, Sersi, Ikaris, Kingo, Sprite, Phastos,
+                                Makkari, Druig,
+                                Gilgamesh, and Thena—are sent by the Celestial Arishem to Earth on their starship, the
+                                Domo, to
+                                exterminate the invasive Deviants.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide" data-swiper-slide-index="2">
+                    <div class="swiper-carousel-animate-opacity" style="opacity: -1.97; transition-duration: 0ms;">
+                        <img src="assets/images/main-banner-3.jpg" alt="main banner image" class="img-fluid">
+                        <div class="slide-content">
+                            <h2>Guardians Of The Galaxy</h2>
+                            <p>A group of intergalactic criminals must pull together to stop a fanatical warrior with
+                                plans to purge
+                                the universe.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide" data-swiper-slide-index="3">
+                    <div class="swiper-carousel-animate-opacity" style="opacity: -1.64; transition-duration: 0ms;">
+                        <img src="assets/images/main-banner-4.jpg" alt="main banner image" class="img-fluid">
+                        <div class="slide-content">
+                            <h2>Justice League</h2>
+                            <p>Determined to ensure Superman's ultimate sacrifice was not in vain, Bruce Wayne aligns
+                                forces with
+                                Diana Prince with plans to recruit a team of metahumans to protect the world from an
+                                approaching
+                                threat
+                                of catastrophic proportions.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide" data-swiper-slide-index="4">
+                    <!-- elements with  "swiper-carousel-animate-opacity" class will have animated opacity -->
+                    <div class="swiper-carousel-animate-opacity" style="opacity: -1.97; transition-duration: 0ms;">
+                        <img src="assets/images/main-banner-3.jpg" alt="main banner image" class="img-fluid">
+                        <div class="slide-content">
+                            <h2>Guardians Of The Galaxy</h2>
+                            <p>A group of intergalactic criminals must pull together to stop a fanatical warrior with
+                                plans to purge
+                                the universe.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide" data-swiper-slide-index="5">
+                    <div class="swiper-carousel-animate-opacity" style="opacity: -2.63; transition-duration: 0ms;">
+                        <img src="assets/images/main-banner-1.jpg" alt="main banner image" class="img-fluid">
+                        <div class="slide-content">
+                            <h2>Doctor Strange</h2>
+                            <p>America Chavez and a version of Stephen Strange are chased by a demon in the space
+                                between universes
+                                while searching for the Book of Vishanti</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide" data-swiper-slide-index="6">
+                    <div class="swiper-carousel-animate-opacity" style="opacity: -2.3; transition-duration: 0ms;">
+                        <img src="assets/images/main-banner-2.jpg" alt="main banner image" class="img-fluid">
+                        <div class="slide-content">
+                            <h2>Eternals </h2>
+                            <p>In 5000 BC, ten superpowered Eternals—Ajak, Sersi, Ikaris, Kingo, Sprite, Phastos,
+                                Makkari, Druig,
+                                Gilgamesh, and Thena—are sent by the Celestial Arishem to Earth on their starship, the
+                                Domo, to
+                                exterminate the invasive Deviants.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-pagination swiper-pagination-bullets swiper-pagination-horizontal">
+            <span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span>
+        </div> -->
+    </div>
+    <!-- main banner end -->
+
+
+    <!-- number details start -->
+    <section class="number-details theme-primary my-5">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-6 col-lg-3">
+                    <iconify-icon icon="fa-solid:user-graduate" width="48" height="48"></iconify-icon>
+                    <span class=" d-block count fs-1 fw-bolder">20000</span>
+                    <h2 class=" fs-5">Student Trained</h2>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <iconify-icon icon="heroicons:building-storefront-solid" width="48" height="48"></iconify-icon>
+                    <span class=" d-block count fs-1 fw-bolder">2000</span>
+                    <h2 class=" fs-5">Companies Tie-Ups</h2>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <iconify-icon icon="fluent-emoji-high-contrast:school" width="48" height="48"></iconify-icon>
+                    <span class=" d-block count fs-1 fw-bolder">200</span>
+                    <h2 class=" fs-5">Centers</h2>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <iconify-icon icon="ph:certificate-fill" width="48" height="48"></iconify-icon>
+                    <span class=" d-block count fs-1 fw-bolder">20</span>
+                    <h2 class=" fs-5">Certifications</h2>
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- number details end -->
+
+
+
+
+
+    <!-- bootstrap js link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!-- jquery link -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <!-- counter js -->
+    <script src="assets/js/counter.js"></script>
+    <!-- custom js link -->
+    <script src="assets/js/main.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.menu-btn').click(function () {
+                $('.menu-btn').toggleClass('close');
+                $('.navbar-brand').toggleClass('text-decoration-underline');
+            });
+            $('#courses').click(function () {
+                $('#courses i').toggleClass('fa-caret-down');
+                $('#courses i').toggleClass('fa-caret-up');
+
+                // $('#courses > i').toggleClass('fa-caret-up');
+            });
+        });
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+* {
+    font-family: "Sora", sans-serif;
+}
+
+:root {
+    --heading-font: "Love Ya Like A Sister", cursive;
+    --text-font: "Sora", sans-serif;
+    --theme-primary: #394867;
+    --theme-secondary: #9BA4B5;
+    --theme-dark: #212A3E;
+    --theme-light: #F1F6F9;
+}
+
+.blur-bg {
+    backdrop-filter: blur(8px) !important;
+}
+
+body {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(57, 72, 103, 1) 100%);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.heading-font {
+    font-family: var(--heading-font);
+}
+
+.transition-normal {
+    transition: all 0.3s linear !important;
+}
+
+.menu-btn {
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+
+.menu-btn .btn-line {
+    width: 28px;
+    height: 3px;
+    margin: 0 0 5px 0;
+    background: var(--theme-secondary);
+    transition: all 0.5s ease-out;
+}
+
+.menu-btn.close {
+    transform: rotate(180deg);
+}
+
+.menu-btn.close .btn-line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.menu-btn.close .btn-line:nth-child(2) {
+    opacity: 0;
+}
+
+.menu-btn.close .btn-line:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -6px);
+}
